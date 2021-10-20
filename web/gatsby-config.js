@@ -17,7 +17,9 @@ module.exports = {
       options: {
         ...clientConfig.sanity,
         token,
-        watchMode: !isProd,
+        projectId: 'ywe1ty4f',
+        dataset: 'production',
+        watchMode: true,
         overlayDrafts: !isProd && token
       }
     }
